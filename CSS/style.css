@@ -84,7 +84,7 @@ body {
 
 /* Header Starts */
 
-#header {
+ #header{
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -95,6 +95,14 @@ body {
    position: sticky;
    top: 0;
    left: 0;
+}
+
+#header h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 35px;
+   color: white;
+   left: 9000px;
 }
 
 
@@ -440,7 +448,7 @@ ion-icon {
    justify-content: space-between;
    flex-wrap: wrap;
    align-items: center;
-   background-image: url(img/banner/b14.png);
+   background-image: url(/images/bg2.jpg);
    background-repeat: no-repeat;
    background-position: 20% 30%;
    background-color: #041e42;
@@ -685,7 +693,7 @@ footer .copyright {
 /* Blog Page */
 
 #page-header.blog-header {
-   background-image: url(img/banner/b19.jpg)
+   background-image: url(/images/bg2.jpg)
 }
 
 #blog {
@@ -755,7 +763,7 @@ footer .copyright {
 /* About Page */
 
 #page-header.about-header {
-   background-image: url(img/about/banner.png)
+   background-image: url(/images/bg3.jpg)
 }
 
 #about-head {

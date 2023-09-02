@@ -56,6 +56,50 @@ let products = [
     price : 800,
     inCart : 0
  },
+
+ {
+   name : "V8 Wrist Watches Men's Sport Waterproof",
+   tag : 'f10',
+   price : 800,
+   inCart : 0
+},
+{
+   name : "4 in 1 Set Handbags Single Shoulder",
+   tag : 'f11',
+   price : 800,
+   inCart : 0
+},
+{
+   name : "Custom-Made Trendy Up and Down Wears",
+   tag : 'f12',
+   price : 800,
+   inCart : 0
+},
+{
+   name : "Ladies Pencil Leather Mix Pencil Pants-Black",
+   tag : 'f13',
+   price : 800,
+   inCart : 0
+},
+{
+   name : "Ladies Half Zip Tank Unitard Romper",
+   tag : 'f14',
+   price : 800,
+   inCart : 0
+},
+{
+   name : "Woman Office Ladies Elegant Classy Jumpsuit Blue",
+   tag : 'f15',
+   price : 800,
+   inCart : 0
+},
+
+{
+   name : "Woman Office Ladies Elegant Classy Jumpsuit Blue",
+   tag : 'f16',
+   price : 800,
+   inCart : 0
+},
 ]
 
 for(let i=0; i<carts.length; i++) {
@@ -140,14 +184,14 @@ function displayCart() {
             <button class="btn" onclick='deleteFromCart(${JSON.stringify(item)})'>Delete</button>
             <img src="./img/products/${item.tag}.jpg">
             <span>${item.name}</span>
-            <div class="price">₹${item.price}/-</div>
+            <div class="price">₦${item.price} </div>
             <div class="quantity">
                <ion-icon name="caret-back"></ion-icon>
                <span>${item.inCart}</span>
                <ion-icon name="caret-forward"></ion-icon>
             </div>
             <div class="total">
-            ₹${item.inCart * item.price}/-
+            ₦${item.inCart * item.price}
             </div>
          </div>
          `;
@@ -159,7 +203,7 @@ function displayCart() {
                Cart Total
             </h4>
             <h4 class="basketTotal">
-               ₹${cartCost}/-
+            ₦${cartCost}
             </h4>
          </div>
       `;
