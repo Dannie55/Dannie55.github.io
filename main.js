@@ -182,7 +182,7 @@ function displayCart() {
          productContainer.innerHTML += `
          <div class="product">
             <button class="btn" onclick='deleteFromCart(${JSON.stringify(item)})'>Delete</button>
-            <img src="./img/products/${item.tag}.jpg">
+           
             <span>${item.name}</span>
             <div class="price">₦${item.price} </div>
             <div class="quantity">
@@ -234,3 +234,22 @@ function deleteFromCart(item) {
 
 onLoadCartNumbers();
 displayCart();
+
+
+// hamburger
+const hamburger = document.querySelector("#bar");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+   hamburger.classList.toggle("active");
+   navMenu.classList.toggle("active");
+
+})
+
+document.querySelectorAll(".nav-link").forEach((link) => 
+link.addEventListener("click", ()=> {
+   hamburger.classList.remove("active");
+   navMenu.classList.remove("active");
+})
+
+);

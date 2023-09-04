@@ -13,15 +13,16 @@
 
    <section id="header">
       <a href="index.html"><img src="images/european-fashion-home-logo-vector-eb54c5d8a053bd9fad07a8babf7c57e2.png" class="logo" alt=""></a>
-<h2>FashionSquare</h2>
-      <div>
-         <ul id="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html" class="active">Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html"><ion-icon name="cart"></ion-icon></a></li>
+
+      <div class="navbar">
+         <ul id="navbar" class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link">Sign in</a></li>
+            <li class="nav-item "><a href="cart.html" class="nav-link"><ion-icon name="cart"></ion-icon></a></li>
          </ul>
       </div>
 
@@ -207,21 +208,21 @@
    </footer>
 
    <script>
-      var MainImg = document.getElementById("MainImg");
-      var smallimg = document.getElementsByClassName("small-img");
+      // var MainImg = document.getElementById("MainImg");
+      // var smallimg = document.getElementsByClassName("small-img");
 
-      smallimg[0].onclick = function() {
-         MainImg.src = smallimg[0].src;
-      }
-      smallimg[1].onclick = function() {
-         MainImg.src = smallimg[1].src;
-      }
-      smallimg[2].onclick = function() {
-         MainImg.src = smallimg[2].src;
-      }
-      smallimg[3].onclick = function() {
-         MainImg.src = smallimg[3].src;
-      }
+      // smallimg[0].onclick = function() {
+      //    MainImg.src = smallimg[0].src;
+      // }
+      // smallimg[1].onclick = function() {
+      //    MainImg.src = smallimg[1].src;
+      // }
+      // smallimg[2].onclick = function() {
+      //    MainImg.src = smallimg[2].src;
+      // }
+      // smallimg[3].onclick = function() {
+      //    MainImg.src = smallimg[3].src;
+      // }
    </script>
    <script src="main.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
