@@ -25,3 +25,6 @@ with the web.
 ### INSTALLATION GUIDE
 - You can clone the project on your machine
 `https://github.com/Dannie55/Fashion_Square.git`
+
+- CD into the repo by using
+`CD Fashion_Square clone`
