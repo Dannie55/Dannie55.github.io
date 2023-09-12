@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet" href="./CSS/login.css">
     <script src="login.js" defer></script>
+    
 </head>
 <body>
     <header>
@@ -42,14 +43,14 @@
                 <form action="#">
                     <div class="input-field">
                         <input type="text" required>
-                        <label>Email</label>
+                        <label id="email">Email</label>
                     </div>
                     <div class="input-field">
                         <input type="password" required>
-                        <label>Password</label>
+                        <label id="password">Password</label>
                     </div>
                     <a href="#" class="forgot-pass-link">Forgot password?</a>
-                    <button type="submit">Log In</button>
+                 <a href="index.html"><button type="submit">Log In</button></a>   
                 </form>
                 <div class="bottom-link">
                     Don't have an account?
@@ -80,14 +81,15 @@
                             <a href="#" class="option">Terms & Conditions</a>
                         </label>
                     </div>
-                    <button type="submit">Sign Up</button>
+                    <button onclick="register" ontype="submit">Sign Up</button>
                 </form>
                 <div class="bottom-link">
                     Already have an account? 
-                    <a href="#" id="login-link">Login</a>
+                    <a href="index.html" id="login-link">Login</a>
                 </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+
