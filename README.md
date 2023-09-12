@@ -1,5 +1,5 @@
 ### Fashion_Square
-![image](https://user-images.githubusercontent.com/105589308/194436026-19c03a0c-94db-47d9-9b72-36d9fbe5cb44.png)
+![2023-09-01 07_58_35-Window](https://github.com/Dannie55/Fashion_Square/assets/100478698/d0e3030f-5bbf-44eb-a47e-397d23e3234a)
 
 Our e-commerce fashion website is more than just an online store; it's your personal runway to discover the perfect outfit that tells your unique story. Here, fashion isn't just about what you wear; it's about how it makes you feel. Whether you're seeking the allure of haute couture, the comfort of everyday essentials, or a fusion of both, we curate a collection that resonates with your individuality. Every piece has a voice, and every outfit a narrative waiting to be written by you.
 
