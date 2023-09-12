@@ -5,7 +5,7 @@ Our e-commerce fashion website is more than just an online store; it's your pers
 
 
 ## ARCHITECTURE AND TECHNOLOGY USED
-- User Interface(UI): This includes product listings, navigation menus, se
+- User Interface(UI): This includes product listings, navigation menus,
 The platform is built using HTML, CSS and Javascript which enable user to interact 
 with the web.
 
