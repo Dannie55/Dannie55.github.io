@@ -1,4 +1,4 @@
-### Fashion_Square
+ji### Fashion_Square
 ![image](https://user-images.githubusercontent.com/105589308/194436026-19c03a0c-94db-47d9-9b72-36d9fbe5cb44.png)
 
 Our e-commerce fashion website is more than just an online store; it's your personal runway to discover the perfect outfit that tells your unique story. Here, fashion isn't just about what you wear; it's about how it makes you feel. Whether you're seeking the allure of haute couture, the comfort of everyday essentials, or a fusion of both, we curate a collection that resonates with your individuality. Every piece has a voice, and every outfit a narrative waiting to be written by you.
@@ -28,3 +28,12 @@ with the web.
 
 - CD into the repo by using
 `CD Fashion_Square clone`
+
+### RELATED PROJECTS
+(https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x00-shell_basics) | Introduction to the basics of the Linux Shell
+
+[0x01-shell_permissions](https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x01-shell_permissions) | Introduction to Shell permissions and the file system
+
+[0x02-shell_redirections](https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x02-shell_directions) | Introduction to Shell redirections
+
+[0x03-shell_variables_expansions](https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x03-shell_variables_expansions) | Introduction to shell init files, variables and expansions 
