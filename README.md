@@ -20,5 +20,8 @@ with the web.
 - Responsive Design: Ensure that the website adapts to different screen sizes and devices, such as desktops, tablets, and mobile phones. This is achieved through responsive web design techniques using media queries and flexible layouts.
 
 ### THE TEAM
-- Ezirim daniel 
-
+- Ezirim daniel
+  
+### INSTALLATION GUIDE
+- You can clone the project on your machine
+`https://github.com/Dannie55/Fashion_Square.git`
